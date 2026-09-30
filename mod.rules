@@ -1,0 +1,31 @@
+ID=forg0tten.invictus_armament
+Name="Invictus Armament"
+Version=0.1
+CompatibleGameVersions = ["0.30.4c"]
+ModifiesGameplay=true
+Author="Forg0tten"
+Logo="logo.png"
+Description="This is a WIP mod that will add whole bunch of new weaponry to the game in the future"
+StringsFolder="strings"
+Actions
+[
+    {
+    Action=AddMany
+    AddTo= "<ships/terran/terran.rules>/Terran/Parts"
+    CreateIfNotExisting=false
+    IgnoreIfNotExisting=false
+    ManyToAdd
+    [
+        &<armor/vesper_arm/vesp_armor/vesp_armor.rules>/Part
+        &<armor/vesper_arm/vesp_armor_1x2_wedge/vesp_armor_1x2_wedge.rules>/Part
+        &<armor/vesper_arm/vesp_armor_1x3_wedge/vesp_armor_1x3_wedge.rules/Part
+        &<armor/vesper_arm/vesp_armor_2x1/vesp_armor_2x1.rules/Part
+        &<armor/vesper_arm/vesp_armor_structure_hybrid_1x1/vesp_armor_structure_hybrid_1x1.rules/Part
+        &<armor/vesper_arm/vesp_armor_structure_hybrid_1x2/vesp_armor_structure_hybrid_1x2.rules/Part
+        &<armor/vesper_arm/vesp_armor_structure_hybrid_1x3/vesp_armor_structure_hybrid_1x3.rules/Part
+        &<armor/vesper_arm/vesp_armor_structure_hybrid_tri/vesp_armor_structure_hybrid_tri.rules/Part
+        &<armor/vesper_arm/vesp_armor_tri/vesp_armor_tri.rules/Part
+        &<armor/vesper_arm/vesp_armor_wedge/vesp_armor_wedge.rules/Part
+    ]
+    }
+]

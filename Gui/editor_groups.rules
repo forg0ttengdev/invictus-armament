@@ -1,0 +1,13 @@
+INV
+{
+	NameKey = "EditorGroups/INV"
+	Icon
+	{
+		Texture
+		{
+			File = "group_inv.png"
+			MipLevels = 2
+			SampleMode = Linear
+		}
+	}
+}

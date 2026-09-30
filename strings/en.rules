@@ -1,0 +1,24 @@
+__Name="Vesper Armor"
+__DebugOnly=false
+Parts
+{
+    VesperArmor="Vesper Armor"
+    VesperArmorIcon="Vesper Ar."
+    VesperArmorDesc="An exceptionally durable ship armor component crafted from rare Vesper."
+    
+    VesperArmor2x1="Vesper Armor 2x1"
+    VesperArmor2x1Icon="Vesper Ar. 2x1"
+    VesperArmor2x1Desc = &VesperArmorDesc
+
+    VesperArmorWedge="Vesper Armor (Wedge)"
+    VesperArmorWedgeIcon="Vesper Armor (Wedge)"
+    VesperArmorWedgeDesc=&VesperArmorDesc
+
+    VesperAlloyArmor="Vesper Alloy Armor"
+    VesperAlloyArmorIcon="Vesper Alloy"
+    VesperAlloyArmorDesc="Placeholder"
+
+    VesperAlloyArmor2x1="Vesper Alloy Armor 2x1"
+    VesperAlloyArmor2x1Icon="Vesper Alloy 2x1"
+    VesperAlloyArmor2x1Desc=&VesperAlloyArmorDesc
+}
